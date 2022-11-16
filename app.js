@@ -1,4 +1,4 @@
-
+/*
 //              Random Number Generator                 //
 const randomNumber = document.getElementById("display");
 const btt = document.getElementById("btn");
@@ -12,10 +12,10 @@ function generatenumber()
     console.log(randomnumber);
     document.getElementById("display").textContent = randomnumber;
 }
-
+*/
 
 //              Random Color Generator                //
-/*const display = document.getElementById("display"); 
+const display = document.getElementById("display"); 
 const button = document.getElementById("btn");
 
 //         What ties the Button to the function     //
@@ -34,4 +34,4 @@ function GenerateColor()
     display.style.backgroundColor = color; 
 }
 
-setInterval(GenerateColor, 1000);*/
+/*setInterval(GenerateColor, 1000);*/
